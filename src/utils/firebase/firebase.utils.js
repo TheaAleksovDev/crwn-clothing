@@ -22,6 +22,7 @@ provider.setCustomParameters({
 
 export const auth = getAuth();
 export const signInWithGooglePopup = () => signInWithPopup(auth, provider);
+export const signInWithGoogleRedirect = () => signInWithGoogleRedirect(auth, provider)
 
 export const db = getFirestore();
 
